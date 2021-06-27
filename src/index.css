@@ -48,3 +48,9 @@ body {
 .NewWinner:hover {
   cursor: pointer;
 }
+
+.Github {
+  position: absolute;
+  top: 0;
+  right: 0;
+}

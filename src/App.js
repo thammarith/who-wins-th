@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import WhoWins from "./who-wins.png";
+import Github from "./gh.svg";
 
 import "./App.css";
 
@@ -48,6 +49,9 @@ function App() {
 
   return (
     <div className="App">
+      <a href="https://github.com/thammarith/who-wins-th">
+        <img className="Github" src={Github} />
+      </a>
       <img className="AppLogo" src={WhoWins} />
       <div className="Winner">
         <span className="WinnerResult">{winner}</span>
