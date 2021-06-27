@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/who-wins-th/static/css/main.5b13af67.chunk.css",
-    "main.js": "/who-wins-th/static/js/main.2bf27e86.chunk.js",
-    "main.js.map": "/who-wins-th/static/js/main.2bf27e86.chunk.js.map",
+    "main.js": "/who-wins-th/static/js/main.ebdc853a.chunk.js",
+    "main.js.map": "/who-wins-th/static/js/main.ebdc853a.chunk.js.map",
     "runtime-main.js": "/who-wins-th/static/js/runtime-main.8cb26138.js",
     "runtime-main.js.map": "/who-wins-th/static/js/runtime-main.8cb26138.js.map",
     "static/js/2.0c5bdf4e.chunk.js": "/who-wins-th/static/js/2.0c5bdf4e.chunk.js",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.8cb26138.js",
     "static/js/2.0c5bdf4e.chunk.js",
     "static/css/main.5b13af67.chunk.css",
-    "static/js/main.2bf27e86.chunk.js"
+    "static/js/main.ebdc853a.chunk.js"
   ]
 }
