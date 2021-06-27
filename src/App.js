@@ -7,6 +7,7 @@ import "./App.css";
 const difficulty = 6;
 
 const common = [
+  "โควิด",
   "ไม่มีใคร",
   "รัฐบาล",
   "ข้าราชการ",
@@ -14,11 +15,13 @@ const common = [
   "ตำรวจ",
   "เจ้าหน้าที่รัฐ",
   "นายทุน",
+  "เจ้าสัว",
+  "ฝันไปว่า",
 ];
-const rare = ["ธุรกิจขนส่ง"];
-const ultraRare = ["ผู้ประกอบการ SME", "เจ้าของธุรกิจรายย่อย", "เจ้าสัว"];
+const rare = ["ธุรกิจขนส่ง", "Food Delivery"];
+const ultraRare = ["ผู้ประกอบการ SME", "เจ้าของธุรกิจรายย่อย"];
 const legendary = ["ร้านอาหาร"];
-const mythical = ["ประชาชน", "คนไทย", "คุณ"];
+const mythical = ["ประชาชน", "คนไทย", "คุณ", "เรา"];
 
 const list = [common, rare, ultraRare, legendary, mythical];
 const rarities = ["Common", "Rare", "Ultrarare", "Legendary", "Mythical"];
