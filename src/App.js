@@ -4,7 +4,7 @@ import Github from "./gh.svg";
 
 import "./App.css";
 
-const difficulty = 6;
+const difficulty = 4;
 
 const common = [
   "โควิด",
@@ -38,7 +38,7 @@ function App() {
       const randomisedItem =
         compendium[Math.floor(Math.random() * compendium.length)];
       setResult([null, randomisedItem]);
-    }, 80);
+    }, 60);
 
     setTimeout(() => {
       setResult(() => rarityRandom());
@@ -49,6 +49,9 @@ function App() {
   function forceUpdate() {
     setCount(count + 1);
   }
+
+  const buttonText =
+    rarityLevel >= list.length - 2 ? "555 จะบ้าหรอ" : "หาผู้ชนะใหม่";
 
   return (
     <div className="App">
@@ -65,7 +68,7 @@ function App() {
       )}
       {rarityLevel !== null && (
         <button className="NewWinner" onClick={forceUpdate}>
-          หาผู้ชนะใหม่
+          {buttonText}
         </button>
       )}
     </div>
